@@ -55,7 +55,7 @@ public class EditorActivity extends AppCompatActivity {
                 if (!TextUtils.isEmpty(selection))
                 {
                     if(selection.equals(getString(R.string.gender_male))){
-                        gender = 0;
+                        gender = 1;
                         Toast.makeText(EditorActivity.this, "male is selected", Toast.LENGTH_SHORT).show();
                     }
                     else if(selection.equals(getString(R.string.gender_female))){
